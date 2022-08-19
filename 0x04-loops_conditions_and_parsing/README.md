@@ -1,0 +1,1 @@
+passing and loop conditions
