@@ -31,8 +31,7 @@ def count_words(subreddit, word_list, found_list=[], after=None):
 
         word_list = [word.lower() for word in word_list]
 
-
-       if posts.status_code == 200:
+    if posts.status_code == 200:
 
         posts = posts.json()['data']
 
